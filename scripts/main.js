@@ -13,7 +13,7 @@ var drawControl = new L.Control.Draw({
 	 polygon: false,
 	 marker: false,
 	 rectangle: false,
-	 circle: false, 
+	 circle: true, 
 	 circlemarker: false
 	},
 	edit: {
