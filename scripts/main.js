@@ -21,6 +21,10 @@ var drawControl = new L.Control.Draw({
 	}
 }).addTo(map);
 
+line.setStyle({
+    color: 'black'
+});
+
 map.on('draw:created', function(e) {
 	// Each time a feaute is created, it's added to the over arching feature group
 	featureGroup.addLayer(e.layer);
