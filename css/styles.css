@@ -9,7 +9,7 @@ body {
 	width: 100%;
 	z-index:1;
 }
-#delete, #export {
+#delete, #export, #import {
 	position: absolute;
 	top:50px;
 	right:10px;
