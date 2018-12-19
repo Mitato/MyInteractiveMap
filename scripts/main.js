@@ -46,5 +46,6 @@ document.getElementById('export').onclick = function(e) {
 
 // on click, import
 document.getElementById('import').onclick = function(e) {
-	featureGroup.importLayers();
+	var geojsonLayer = new L.GeoJSON.AJAX("foo.geojson");       
+	geojsonLayer.addTo(map);
 }
