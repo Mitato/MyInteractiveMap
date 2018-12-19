@@ -43,3 +43,8 @@ document.getElementById('export').onclick = function(e) {
 	document.getElementById('export').setAttribute('href', 'data:' + convertedData);
 	document.getElementById('export').setAttribute('download','data.geojson');
 }
+
+// on click, import
+document.getElementById('import').onclick = function(e) {
+	featureGroup.importLayers();
+}
